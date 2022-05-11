@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 2em;
+}
+
+/* Navbar in Base */
+.navbar {
+    padding: 2rem;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+/* Profiles in Index */
+.profile-container {
+    padding-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.col {
+    border-style: solid;
+    padding: 7rem;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Buttons in Index */
+.button-container {
+    text-align: center;
+    padding: 2em;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-col {
+    padding: 0 2rem 0 0;
+}
+
+/* Login and Register */
+.login-form {
+    margin: 3rem;
+}
+
+.form-club {
+    margin: 3rem;
+}

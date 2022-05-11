@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<!-- Select Username -->
+<h1>Hello {{ username }}!</h1>
+
+<!-- Create a club and join a club -->
+<div class="button-container">
+    <div class="button-row">
+        <form method="GET" action="/club">
+            <div class="button-col">
+                <button type="submit" class="btn btn-info">Form a Club</button></div>
+        </form>
+        <form method="GET" action="/">
+            <div class="button-col">
+                <button type="submit" class="btn btn-warning">Join a Club</button></div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

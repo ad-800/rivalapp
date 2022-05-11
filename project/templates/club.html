@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Create Club{% endblock %}
+
+{% block content %}
+
+<form class="form-club">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Name of Club</label>
+      <input type="text" class="form-control" name="name" id="name" placeholder="Speech and Debate..." required>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Description</label>
+        <textarea class="form-control" name="description" id="description" rows="3" placeholder="What will a normal meeting look like?" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Goals</label>
+      <textarea class="form-control" name="goals" id="goals" rows="3" placeholder="What are the long/short term goals?"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{% endblock %}
